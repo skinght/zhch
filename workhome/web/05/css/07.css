@@ -1,0 +1,22 @@
+div{
+	padding: 60px;
+	width: 450px;
+	height: 120px;
+	background-color: lightblue;
+	overflow: hidden;
+	background-image: url(../image/07.png);
+	background-repeat:no-repeat;
+	background-position:13% 26%;
+	box-shadow: 10px 10px 5px lightcyan;
+	color:dodgerblue;
+	text-shadow: 5px 5px 5px lightcyan;
+	font-size: 40px;
+	text-align:right;
+	font-weight:bolder;
+}
+#borderimg1 { 
+    border: 20px solid transparent;
+    -webkit-border-image: url(../image/02.png) 30 round; 
+    -o-border-image: url(../image/02.png) 30 round; 
+    border-image: url(../image/02.png) 30 round;
+}

@@ -1,0 +1,41 @@
+body,tr,td,table,select,form {
+	padding:0;margin:0;
+	}
+table{
+	outline-style:solid;
+	outline-color:green;
+}
+td{
+	font-family:"黑体";
+	font-size:10px;
+	color: aqua;
+	font-weight:bolder
+}
+th{
+	color: yellow;
+	background-color:lightblue;
+}
+select{
+	color: aqua;
+	background-color: cornsilk;
+	font-weight:bolder
+}
+tr{
+	background-color:lightgrey;
+	color: aqua;
+	font-weight:bolder
+}
+.comment{
+	overflow-y: scroll;
+	overflow-x: scroll;
+	color: aqua;
+	font-weight:bolder
+}
+
+.tj{
+	border:10px double lightblue;
+
+}
+.cz{
+	border:10px double lightblue;
+}

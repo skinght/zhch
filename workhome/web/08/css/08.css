@@ -1,0 +1,17 @@
+div{
+	width:230px;
+	height:150px;
+	background:red;
+	position:relative;
+	animation:a 3s;
+	-webkit-animation:a 3s linear 2s infinite alternate;
+	
+}
+@keyframes a
+{
+	0%   {background:red; left:0px; top:0px;}
+	25%  {background:yellow; left:300px; top:0px;}
+	50%  {background:green; left:300px; top:300px;}
+	75%  {background:purple; left:0px; top:300px;}
+	100% {background:red; left:0px; top:0px;}
+}

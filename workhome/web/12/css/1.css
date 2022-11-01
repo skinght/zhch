@@ -1,0 +1,13 @@
+div{
+	border: 1px;
+	border-style: solid;
+	width: 150px;
+	height: 100px;
+}
+.df{
+	width: 300px;
+	height: 150px;
+	box-shadow: 10px 10px 5px lightcyan;
+	color:dodgerblue;
+	border-radius: 15px 15px 15px 15px;
+}

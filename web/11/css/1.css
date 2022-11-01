@@ -1,0 +1,35 @@
+body{
+	background-image: url(../images/1.webp);
+}
+div.adc{
+	width: 100px;
+	height: 50px;
+	background-color: #55ff7f;
+}
+div.fc{
+	width: 100px;
+	height: 50px;
+	background-color: #55ffff;
+}
+div#fg{
+	width: 100px;
+	height: 50px;
+	background-color: #ffaaff;
+}
+div#hj{
+	width: 100px;
+	height: 50px;
+	background-color: #ff007f;
+}
+.adc:hover{
+		background-color: #0000FF;
+				}
+.fc:hover{
+		background-color: #0000FF;
+				}
+#fg:hover{
+		background-color: #55ff7f;
+				}
+#hj:hover{
+	background-color: #55ffff;
+}

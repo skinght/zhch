@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>信息统计表</title>
+		 <link type="text/css" rel="stylesheet" href="css/04.css" />
+	</head>
+	<body>
+		
+		<table border="1" align="center "><form action="" method="GET">
+		<tr><th colspan="2">信息统计表</tr>
+		<tr><td  align="right" colspan="1">姓名:</td><td><input type="text"/> </td></tr>
+		<tr><td align="right" colspan="1">年龄:</td><td><input type="number"/></td></tr>
+			<tr><td  align="right" rowspan="1">性别:</td>
+			<td><input type="radio"name="sex" value="1"/>男 
+			<input type="radio" name="sex" value="0"/>女</td></tr>
+			<tr><td  align="right" rowspan="5">爱好：</td>
+			     <td> <input type="checkbox" name="hobby" value="1"/>旅游</td> 
+			     <tr><td><input type="checkbox" name="hobby" value="2"/>登山</td></tr> 
+			     <tr><td><input type="checkbox" name="hobby" value="3"/>健身</td></tr> 
+			      <tr><td><input type="checkbox" name="hobby" value="4"/>上网</td></tr>
+			      <tr><td><input type="checkbox" name="hobby" value="5"/>游泳</td></tr></tr>
+			
+			<tr>
+			<tr><td  align="right" clarowspan="1">学历：</td><td><select name="h1">
+				<option value="">--请选择--</option>
+				<option value="1">专科</option>
+				<option value="2">本科</option>
+				<option value="3">硕士</option>
+				<option value="4">博士及以上</option>
+			</select></td></tr>
+			<tr align="right"><td rows="5">自我介绍：</td>
+			<td><textarea class="comment" rows="5" cols="50">自我简介：</textarea></td></tr>
+			
+			<tr><td colspan="2" align="center"><input class="tj" type="submit" value="提交"/>
+			<input class="cz" type="reset" value="重置"/></td></tr>
+				   
+		</form>
+		</table>
+		
+	</body>
+</html>
