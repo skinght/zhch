@@ -1,0 +1,32 @@
+body{
+	color: aquamarine;
+	margin:0;
+	padding:0;
+	font-size:14px;
+	line-height:25px;
+	background-image: url(../images/src=http___img1.doubanio.com_view_group_topic_l_public_p404300697.jpg&refer=http___img1.doubanio.webp);
+}
+.main{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.left{
+		text-align:right;
+		width:180px;
+		height:25px;
+		padding-right:5px;
+		}
+.inputs{
+		width:130px;
+		height:16px;
+		border:solid 1px #666666;
+		float:left;
+		margin-right:5px;
+		}
+.prompt{
+		margin-left:10px;
+		color:#F00;
+		}
+
+				

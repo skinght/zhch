@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		</head>
+		<body>
+		<link type="text/css" rel="stylesheet" href="14/css/1.css"/>
+	<p> Exchange Rates</p>
+    <table border="1">
+        <tr>
+            <th> </th>
+            <th>Currency #1</th>
+            <th>Currency #2</th>
+        </tr>
+        <tr>
+            <td><p>Group 1</td>
+            <td><input type="text" id="group1currency1" size="12" value=""></td>
+        </tr>
+        <tr>
+            <td><p>Group 3</td>
+            <td><span id="outputcurrency1"></span></td>
+        </tr>
+    </table>
+    <button type="button" id="outputbutton" class="btn btn-success" >复制</button>
+	<p class="duan" style="display: none;">已复制成功</p>
+    </div>
+	
+
+<script src="https://cdn.bootcss.com/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.4.1.min.js"></script>
+    <script >
+ 
+        var x = function () {
+            $("#outputbutton").click(function () {/////////
+			$(".duan").show()
+                var str = document.getElementById("group1currency1").value;
+                document.getElementById("outputcurrency1").innerHTML = str;///////////
+            });
+        };
+        x()///////////
+    </script>
+
+	</body>
+</html>
